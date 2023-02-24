@@ -6,5 +6,5 @@ setuptools.setup(
     description='Simple module created while learning Python',
     url='https://github.com/joeg3/python-example-module',
     packages=['fakeutils'],
-    requires=['faker'],
+    install_requires=['faker'],
 )
