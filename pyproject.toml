@@ -1,9 +1,17 @@
-[tool.poetry]
-name = "python-example-module"
+#[build-system]
+#requires = ["setuptools", "setuptools-scm"]
+#build-backend = "setuptools.build_meta"
+
+[project]
+name = "fakeutils"
 version = "0.1.0"
-description = "Example for learning how to create a Python package"
-authors = ["Your Name <you@example.com>"]
-readme = "README.md"
+
+#[tool.poetry]
+#name = "python-example-module"
+#version = "0.1.0"
+#description = "Example for learning how to create a Python package"
+#authors = ["Your Name <you@example.com>"]
+#readme = "README.md"
 
 
 [tool.poetry.dependencies]
