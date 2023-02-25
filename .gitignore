@@ -1,3 +1,5 @@
 /poetry.lock
 *.code-workspace
 /.vscode/settings.json
+__pycache__/
+.pytest_cache/
